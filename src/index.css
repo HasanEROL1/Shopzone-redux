@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.paginate {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.paginate li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(159, 159, 159);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Ürün kartı */
+.product-card {
+    width: 420px;
+    padding: 12px;
+    margin: 0 20px 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    position: relative;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Fiyat etiketi */
+.price-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 4px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.price-badge .currency {
+    font-size: 12px;
+}
+
+/* Resim alanı (kutusu) */
+.product-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /* sabit bir yükseklik: resim her zaman yer kaplasın */
+    overflow: hidden;
+    /* taşarsa gizle */
+}
+
+/* Resmin kendisi */
+.product-img {
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* görüntüyü sıkıştırma/bozma */
+}
+
+/* Başlık */
+.product-title {
+    text-align: center;
+    padding: 0 12px;
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 18px;
+}
