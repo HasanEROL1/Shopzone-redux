@@ -72,4 +72,4 @@ npm start
 -src/redux: Redux Slice'ları ve Store konfigürasyonu.
 
  
- #![tanıtım](.shopzone.gif)
+ #![tanıtım](shopzone.gif)
