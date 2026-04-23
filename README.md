@@ -1,18 +1,18 @@
-🛒 React Redux-Toolkit E-Ticaret Uygulaması
+#🛒 React Redux-Toolkit E-Ticaret Uygulaması
 Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listeleme, kategori filtreleme, ürün detaylarını görüntüleme ve sepet yönetimi özelliklerine sahip dinamik bir e-ticaret arayüzüdür.
 
-🚀 Öne Çıkan Özellikler
-Dinamik Ana Sayfa: Kategori seçimi ve fiyat/tarih sıralama özellikleriyle entegre çalışan ürün listeleme.
+##🚀 Öne Çıkan Özellikler
+-Dinamik Ana Sayfa: Kategori seçimi ve fiyat/tarih sıralama özellikleriyle entegre çalışan ürün listeleme.
 
-Global State Yönetimi: Redux Toolkit kullanılarak sepet işlemleri ve ürün verileri tüm uygulamada senkronize edilir.
+-Global State Yönetimi: Redux Toolkit kullanılarak sepet işlemleri ve ürün verileri tüm uygulamada senkronize edilir.
 
-Detaylı Ürün Görünümü: Her ürün için özel ID tabanlı detay sayfaları ve yükleme (loading) durum yönetimi.
+-Detaylı Ürün Görünümü: Her ürün için özel ID tabanlı detay sayfaları ve yükleme (loading) durum yönetimi.
 
-Gelişmiş Sepet Yönetimi: Ürünlerin sepete eklenmesi, toplam tutarın anlık hesaplanması ve sepet boş kontrolü.
+-Gelişmiş Sepet Yönetimi: Ürünlerin sepete eklenmesi, toplam tutarın anlık hesaplanması ve sepet boş kontrolü.
 
-Responsive Tasarım: Tailwind CSS ile tüm cihazlara uyumlu arayüz.
+-Responsive Tasarım: Tailwind CSS ile tüm cihazlara uyumlu arayüz.
 
-🛠 Kullanılan Teknolojiler
+##🛠 Kullanılan Teknolojiler
 Frontend: React.js
 
 State Management: Redux Toolkit (@reduxjs/toolkit)
@@ -45,7 +45,7 @@ getCartTotal eylemi ile sepet tutarı sürekli güncel tutulur.
 
 Sepet boşsa kullanıcıyı ana sayfaya yönlendiren yönlendirme mekanizması içerir.
 
-💻 Kurulum
+#💻 Kurulum
 1.Projeyi klonlayın:
 
 Bash
@@ -61,11 +61,12 @@ npm install
 Bash
 npm start
 
-🏗 Proje Klasör Yapısı
-src/components: Tekrar kullanılabilir arayüz bileşenleri.
+#🏗 Proje Klasör Yapısı
+-src/components: Tekrar kullanılabilir arayüz bileşenleri.
 
-src/pages: Ana sayfa yapıları (Home, Detail, Cart).
+-src/pages: Ana sayfa yapıları (Home, Detail, Cart).
 
-src/redux: Redux Slice'ları ve Store konfigürasyonu.
+-src/redux: Redux Slice'ları ve Store konfigürasyonu.
 
-![tanıtım](.shopzone.gif)
+ 
+ #![tanıtım](.shopzone.gif)
