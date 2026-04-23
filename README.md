@@ -1,7 +1,10 @@
 #🛒 React Redux-Toolkit E-Ticaret Uygulaması
+
+
 Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listeleme, kategori filtreleme, ürün detaylarını görüntüleme ve sepet yönetimi özelliklerine sahip dinamik bir e-ticaret arayüzüdür.
 
 ##🚀 Öne Çıkan Özellikler
+
 -Dinamik Ana Sayfa: Kategori seçimi ve fiyat/tarih sıralama özellikleriyle entegre çalışan ürün listeleme.
 
 -Global State Yönetimi: Redux Toolkit kullanılarak sepet işlemleri ve ürün verileri tüm uygulamada senkronize edilir.
