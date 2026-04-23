@@ -30,23 +30,23 @@ Icons/UI: React Icons (Opsiyonel kullanıldıysa)
 1. Ana Sayfa (Home.jsx)
 Uygulamanın giriş noktasıdır. useState ile kategori ve sıralama bilgilerini tutar.
 
-SliderComp: Öne çıkan kampanyaları gösterir.
+-SliderComp: Öne çıkan kampanyaları gösterir.
 
-Sorting & Category: Kullanıcıdan aldığı filtreleme bilgilerini Products bileşenine aktararak dinamik listeleme sağlar.
+-Sorting & Category: Kullanıcıdan aldığı filtreleme bilgilerini Products bileşenine aktararak dinamik listeleme sağlar.
 
 2. Ürün Detay Sayfası (Detail.jsx)
-URL'den alınan id parametresine göre API'den (veya slice'dan) ilgili ürünü çeker.
+-URL'den alınan id parametresine göre API'den (veya slice'dan) ilgili ürünü çeker.
 
-Veri yüklenirken Loading bileşeni aktif olur.
+-Veri yüklenirken Loading bileşeni aktif olur.
 
-Veri hazır olduğunda DetailComp üzerinden ürün özellikleri gösterilir.
+-Veri hazır olduğunda DetailComp üzerinden ürün özellikleri gösterilir.
 
 3. Sepet Sayfası (Cart.jsx)
-Kullanıcının alışveriş listesini yönettiği alandır.
+-Kullanıcının alışveriş listesini yönettiği alandır.
 
-getCartTotal eylemi ile sepet tutarı sürekli güncel tutulur.
+-getCartTotal eylemi ile sepet tutarı sürekli güncel tutulur.
 
-Sepet boşsa kullanıcıyı ana sayfaya yönlendiren yönlendirme mekanizması içerir.
+-Sepet boşsa kullanıcıyı ana sayfaya yönlendiren yönlendirme mekanizması içerir.
 
 #💻 Kurulum
 1.Projeyi klonlayın:
