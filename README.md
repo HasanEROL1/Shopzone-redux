@@ -1,9 +1,9 @@
-#🛒 React Redux-Toolkit E-Ticaret Uygulaması
+# 🛒 React Redux-Toolkit E-Ticaret Uygulaması
 
 
 Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listeleme, kategori filtreleme, ürün detaylarını görüntüleme ve sepet yönetimi özelliklerine sahip dinamik bir e-ticaret arayüzüdür.
 
-##🚀 Öne Çıkan Özellikler
+## 🚀 Öne Çıkan Özellikler
 
 -Dinamik Ana Sayfa: Kategori seçimi ve fiyat/tarih sıralama özellikleriyle entegre çalışan ürün listeleme.
 
@@ -15,7 +15,7 @@ Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listele
 
 -Responsive Tasarım: Tailwind CSS ile tüm cihazlara uyumlu arayüz.
 
-##🛠 Kullanılan Teknolojiler
+## 🛠 Kullanılan Teknolojiler
 Frontend: React.js
 
 State Management: Redux Toolkit (@reduxjs/toolkit)
@@ -48,7 +48,7 @@ Uygulamanın giriş noktasıdır. useState ile kategori ve sıralama bilgilerini
 
 -Sepet boşsa kullanıcıyı ana sayfaya yönlendiren yönlendirme mekanizması içerir.
 
-#💻 Kurulum
+# 💻 Kurulum
 1.Projeyi klonlayın:
 
 Bash
@@ -64,7 +64,7 @@ npm install
 Bash
 npm start
 
-#🏗 Proje Klasör Yapısı
+# 🏗 Proje Klasör Yapısı
 -src/components: Tekrar kullanılabilir arayüz bileşenleri.
 
 -src/pages: Ana sayfa yapıları (Home, Detail, Cart).
