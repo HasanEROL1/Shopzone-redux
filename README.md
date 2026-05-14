@@ -65,11 +65,11 @@ Bash
 npm start
 
 # 🏗 Proje Klasör Yapısı
--src/components: Tekrar kullanılabilir arayüz bileşenleri.
+- src/components: Tekrar kullanılabilir arayüz bileşenleri.
 
--src/pages: Ana sayfa yapıları (Home, Detail, Cart).
+- src/pages: Ana sayfa yapıları (Home, Detail, Cart).
 
--src/redux: Redux Slice'ları ve Store konfigürasyonu.
+- src/redux: Redux Slice'ları ve Store konfigürasyonu.
 
  
  # ![tanıtım](shopzone.gif)
