@@ -16,15 +16,16 @@ Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listele
 - Responsive Tasarım: Tailwind CSS ile tüm cihazlara uyumlu arayüz.
 
 ## 🛠 Kullanılan Teknolojiler
-Frontend: React.js
 
-State Management: Redux Toolkit (@reduxjs/toolkit)
+**Frontend**: React.js
 
-Routing: React Router DOM
+**State Management**: Redux Toolkit (@reduxjs/toolkit)
 
-Styling: Tailwind CSS
+**Routing:** React Router DOM
 
-Icons/UI: React Icons (Opsiyonel kullanıldıysa)
+**Styling:** Tailwind CSS
+
+**Icons/UI:** React Icons 
 
 📂 Sayfa Yapıları ve Mantığı
 1. Ana Sayfa (Home.jsx)
