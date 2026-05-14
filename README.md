@@ -51,20 +51,20 @@ Uygulamanın giriş noktasıdır. useState ile kategori ve sıralama bilgilerini
 
 # 💻 Kurulum
 1.Projeyi klonlayın:
-
+```
 Bash
 git clone [https://github.com/HasanEROL1/Shopzone-redux]
-
+```
 2.Bağımlılıkları yükleyin:
-
+```
 Bash
 npm install
-
+```
 3.Uygulamayı başlatın:
-
+```
 Bash
 npm start
-
+```
 # 🏗 Proje Klasör Yapısı
 - src/components: Tekrar kullanılabilir arayüz bileşenleri.
 
