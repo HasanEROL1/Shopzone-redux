@@ -25,7 +25,7 @@ Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listele
 
 **Styling:** Tailwind CSS
 
-**Icons/UI:** React Icons 
+**Icons/UI:** React Icons  
 
 📂 Sayfa Yapıları ve Mantığı
 1. Ana Sayfa (Home.jsx)
