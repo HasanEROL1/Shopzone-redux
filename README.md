@@ -5,15 +5,15 @@ Bu proje; modern web teknolojileri kullanılarak geliştirilmiş, ürün listele
 
 ## 🚀 Öne Çıkan Özellikler
 
--Dinamik Ana Sayfa: Kategori seçimi ve fiyat/tarih sıralama özellikleriyle entegre çalışan ürün listeleme.
+- Dinamik Ana Sayfa: Kategori seçimi ve fiyat/tarih sıralama özellikleriyle entegre çalışan ürün listeleme.
 
--Global State Yönetimi: Redux Toolkit kullanılarak sepet işlemleri ve ürün verileri tüm uygulamada senkronize edilir.
+- Global State Yönetimi: Redux Toolkit kullanılarak sepet işlemleri ve ürün verileri tüm uygulamada senkronize edilir.
 
--Detaylı Ürün Görünümü: Her ürün için özel ID tabanlı detay sayfaları ve yükleme (loading) durum yönetimi.
+- Detaylı Ürün Görünümü: Her ürün için özel ID tabanlı detay sayfaları ve yükleme (loading) durum yönetimi.
 
--Gelişmiş Sepet Yönetimi: Ürünlerin sepete eklenmesi, toplam tutarın anlık hesaplanması ve sepet boş kontrolü.
+- Gelişmiş Sepet Yönetimi: Ürünlerin sepete eklenmesi, toplam tutarın anlık hesaplanması ve sepet boş kontrolü.
 
--Responsive Tasarım: Tailwind CSS ile tüm cihazlara uyumlu arayüz.
+- Responsive Tasarım: Tailwind CSS ile tüm cihazlara uyumlu arayüz.
 
 ## 🛠 Kullanılan Teknolojiler
 Frontend: React.js
