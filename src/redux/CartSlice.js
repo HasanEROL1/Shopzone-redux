@@ -46,7 +46,7 @@ const cartSlice = createSlice({
 
                 state.carts = tempCart;
             } else {
-                state.carts.push(action.payload); // ✅ düzelttik
+                state.carts.push(action.payload);
             }
 
             storeInLocalStorage(state.carts);
@@ -75,6 +75,6 @@ const cartSlice = createSlice({
 });
 
 export const { addToCart, removeFromCart, clearCart, getCartTotal } =
-    cartSlice.actions;
+cartSlice.actions;
 
 export default cartSlice.reducer;

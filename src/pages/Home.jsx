@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import SliderComp from '../components/home/SliderComp'
 import Sorting from '../components/home/Sorting'
 import Products from '../components/home/Products'
-import Categori from '../components/home/Categori'
+import Category from '../components/home/Category'
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             <Sorting setSort={setSort} />
 
             <div className='flex'>
-                <Categori setCategory={setCategory} />
+                <Category setCategory={setCategory} />
                 <Products category={category} sort={sort} />
             </div>
         </div>

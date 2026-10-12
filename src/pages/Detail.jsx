@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { getDetailProduct } from '../redux/productSlice'
@@ -13,11 +13,11 @@ const Detail = () => {
     useEffect(() => {
         dispatch(getDetailProduct(id))
     }, [dispatch, id])
-    console.log(productDetail, "productDetail")
+    
 
     return (
         <div>{
-            productDetailStatus == "LOADING" ? <Loading /> : <DetailComp productDetail={productDetail} />
+            productDetailStatus === "LOADING" ? <Loading /> : <DetailComp productDetail={productDetail} />
         }
         </div>
     )
